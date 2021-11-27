@@ -43,6 +43,15 @@ namespace Console
             */
 
         }
+        static void TacheSecondaire()
+        {
+            Random GénérateurDeNombreAléatoire = new Random();
+            int NbMilliSecondesSommeil = GénérateurDeNombreAléatoire.Next(0, 500);
+
+            
+
+
+        }
 
     }
 }
